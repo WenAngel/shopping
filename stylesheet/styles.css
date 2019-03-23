@@ -934,6 +934,7 @@ a:hover {
     display: block;
     background: white;
     border: none;
+    outline: none;
     width: 50px;
     height: 50px;
     margin-bottom: 10px;
