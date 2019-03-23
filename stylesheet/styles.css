@@ -876,6 +876,27 @@ a:hover {
   .path .container {
     width: 90%;
   }
+  .Product-news .container {
+    width: 800px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .Product-news .illustrate {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    margin-right: 20px;
+  }
+  .Product-news .commodity-recommend {
+    border-top: #d3d0d0 1.5px solid;
+  }
+  .Product-news .commodity-recommend h3 {
+    margin-top: 20px;
+  }
   .container-t {
     width: 800px;
   }
