@@ -459,7 +459,6 @@
          .illustrate {
              flex-direction: column;
              width: 100%;
-             margin-right: 20px;
          }
          .commodity-recommend {
              border-top: rgb(211, 208, 208) 1.5px solid;
@@ -488,7 +487,6 @@
              flex-direction: column;
              position: absolute;
              top: 40px;
-             // width: 100%;
              background: rgba(#fff, 0.9);
              z-index: 5; //z-index是深度的推移  把menu往前搬
              a {
@@ -517,19 +515,13 @@
              width: 500px;
          }
          .input-text {
-             position: relative;
-             align-items: center;
              input {
                  width: 456px;
              }
          }
          .buy-p {
              input {
-                 padding: 0;
                  width: 500px;
-                 border: none;
-                 color: white;
-                 background: black;
              }
          }
      }
@@ -546,11 +538,21 @@
          .illustrate {
              flex-direction: column;
              width: 100%;
-             margin-right: 20px;
          }
          .ill-img {
              width: 480px;
              height: 400px;
+         }
+         .price-and-quantity {
+             .q-determine {
+                 input {
+                     padding: 0;
+                     width: 500px;
+                     border: none;
+                     color: white;
+                     background: black;
+                 }
+             }
          }
      }
      .container-t {

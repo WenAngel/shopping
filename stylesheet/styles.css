@@ -893,7 +893,6 @@ a:hover {
         -ms-flex-direction: column;
             flex-direction: column;
     width: 100%;
-    margin-right: 20px;
   }
   .Product-news .commodity-recommend {
     border-top: #d3d0d0 1.5px solid;
@@ -948,21 +947,11 @@ a:hover {
   .order .container {
     width: 500px;
   }
-  .order .input-text {
-    position: relative;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
   .order .input-text input {
     width: 456px;
   }
   .order .buy-p input {
-    padding: 0;
     width: 500px;
-    border: none;
-    color: white;
-    background: black;
   }
   .path .container {
     width: 80%;
@@ -980,11 +969,17 @@ a:hover {
         -ms-flex-direction: column;
             flex-direction: column;
     width: 100%;
-    margin-right: 20px;
   }
   .Product-news .ill-img {
     width: 480px;
     height: 400px;
+  }
+  .Product-news .price-and-quantity .q-determine input {
+    padding: 0;
+    width: 500px;
+    border: none;
+    color: white;
+    background: black;
   }
   .container-t {
     width: 550px;
