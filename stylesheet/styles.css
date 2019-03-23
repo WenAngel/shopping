@@ -738,6 +738,10 @@ a:hover {
   background: black;
 }
 
+.Product-news .recommend {
+  border-top: #d3d0d0 1.5px solid;
+}
+
 .Product-news .recommend img {
   margin: 15px;
 }
